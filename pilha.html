@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pilha</title>
+</head>
+<body>
+    <section class="secaopilha">
+        <a href="index.html"><h1 class="voltar">↩</h1></a>
+        <h1 class="textopilha">Pilha</h1>
+        <div class="entrada">
+            <input type="text" id="entrada" placeholder="Insira um item">
+        </div>
+
+        <div class="botoesfila">
+            <div>
+                <button onclick="empilhar()" id="botadd">📥 Empilhar</button>
+            </div>
+            <div>
+                <button onclick="desempilhar()" id="botremove">📤 Desempilhar</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="pilhar"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>

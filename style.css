@@ -1,0 +1,149 @@
+body{
+    background-color: #15202b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 32px;
+    cursor: default;
+}
+.voltar{
+    display: flex;
+    font-size: 25px;
+    margin-top: -45px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 300ms;
+}
+a{
+    text-decoration: none;
+}
+.fazol{
+    background-color: aliceblue;
+    border-radius: 50px;
+    width: 240px;
+    height: 5px;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-top: 20;
+}
+.secaomenu{
+    background-color: #192734;
+    border-radius: 16px;
+    height: 350px;
+    width: 400px;
+    margin-top: 8%;
+    /*box-shadow: 0px 15px 25px #192734;*/
+}
+.secaopilha, .secaofila{
+    background-color: #192734;
+    border-radius: 16px;
+    height: 290px;
+    width: 500px;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*box-shadow: 0px 15px 25px #192734;*/
+}
+.botao{
+    background-color: #1da1f2;
+    height: 50px;
+    width: 180px;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: 300ms;
+    color: white;
+    font-size: 18px;
+}
+input{
+    border-style: none;
+    height: 38px;
+    width: 360px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: 15px;
+}
+.textopilha, .textofila{
+    margin-top: 0px;
+}
+/*--------------ANIMAÇÕES BOTOES----------------------*/
+.botao:hover{
+    background-color: rgb(125, 201, 245);
+    transition: 80ms;
+    font-size: 20px;
+    width: 200px;
+    margin-left: -10px;
+    margin-right: -10px;
+    color: black;
+}
+.botao:active{
+    background-color: rgb(171, 221, 250);
+    width: 180px;
+    font-size: 18px;
+}
+.voltar:hover{
+    color: #1da1f2;
+    transition: 80ms;
+}
+/*------------botoes pilha-------------------*/
+.botoespilha, .botoesfila{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#botadd, #botremove{
+    margin: 3px;
+    background-color: #1da1f2;
+    height: 50px;
+    width: 180px;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: 300ms;
+    color: white;
+    font-size: 18px;
+}
+#botadd:hover, #botremove:hover{
+    background-color: #005d97;
+    transition: 80ms;
+}
+#botadd:active, #botremove:active{
+    color: white;
+    background-color: #65c2fc;
+    transition: 80ms;
+}
+/*------------------------------------*/
+h2{
+    background-color: #1da1f2;
+    color: white;
+    width: 495px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*------------------------------------*/
+#voltalista{
+    position: absolute;
+    margin-top: -8px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista</title>
+</head>
+<body>
+    <section class="secaofila">
+        <a href="index.html"><h1 class="voltar" id="voltalista">↩</h1></a>
+        <h1 class="textofila">Lista</h1>
+        <div class="entrada">
+            <input type="text" id="entrada" placeholder="Insira um item">
+            <input type="text" id="posicao" placeholder="Insira uma posição">
+        </div>
+
+        <div class="botoesfila">
+            <div>
+                <button onclick="inserirLista()" id="botadd">📥 Listar</button>
+            </div>
+            <div>
+                <button onclick="removerLista()" id="botremove">📤 Deslistar</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="mostralista"></div>
+    <script src="scripts.js"></script>
+    
+</body>
+</html>

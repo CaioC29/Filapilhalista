@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fila</title>
+</head>
+<body>
+    <section class="secaofila">
+        <a href="index.html"><h1 class="voltar">↩</h1></a>
+        <h1 class="textofila">Fila </h1>
+        <div class="entrada">
+            <input type="text" id="entrada" placeholder="Insira um item">
+        </div>
+
+        <div class="botoesfila">
+            <div>
+                <button onclick="enfileirar()" id="botadd">📥 Enfileirar</button>
+            </div>
+            <div>
+                <button onclick="desenfileirar()" id="botremove">📤 Desenfileirar</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="fileira"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
